@@ -1,0 +1,10 @@
+:root {
+
+    /*Header variables*/
+    --background-body: #080808;
+    --text-color: #FFFFFF;
+    --color-nav-item: #FFFFFF;
+
+    /*Services session variables*/
+    --background-service-box: #1f1f21;
+}

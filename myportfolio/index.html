@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/source/css/root.css">
+  <link rel="stylesheet" href="./assets/source/css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>MyPortfolio</title>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="./assets/images/myImages/logo-me.png" alt="Imagem da logo não encontrada." class="logo">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, My name is <span>José</span><br> Vitor and I Am from Brazil!</h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./assets/images/myImages/myImage2.jpeg" alt="Imagem não encontrada.">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">Sobre Mim</h1>
+          <p>
+            Meu nome é José Vitor de Sousa Feitosa, mas conhecido como José. Sou desenvolvedor Web há três anos,
+            já realizei alguns projetos pessoais e adicionei no meu GitHub. Trabalho com HTML5, CSS3 e  JavaScript há
+            algum tempo. Mas pretendo não só trabalhar com essas três tecnologias da Web, mais também com ReactJs para
+            sites da Web e React Native para aplicações móveis além do Flutter.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experiências</p>
+            <p class="tab-links" onclick="opentab('education')">Educação</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Desenvolvimento Web</span><br>Desenvolvendo Sites e Aplicativos</li>
+              <li><span>Desenvolvimento de Apps</span><br>Construindo aplicações para Android e Ios</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>HTML</span><br>Desenvolvimento com HTML</li>
+              <li><span>CSS</span><br>Desenvolvimento com folhas de estilos CSS</li>
+              <li><span>JavaScript</span><br>Experiência com JavaScript</li>
+              <li><span>Frameworks/Bibliotecas</span><br>Desenvolvimento com Frameworks e Bibliotecas</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Iniciou em 2019</span><br>Pelo IFPI Campus-Angical</li>
+              <li><span>Concluiu em 2023</span><br>Pelo Instituto de Ciências e Tecnologias do Piauí - IFPI</li>
+              <li><span>Voltando ao IFPI</span><br>Iniciando Análise e Desenvolvimento de Sistemas em 2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Meus Serviços</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Desenvolvimento Web</h2>
+          <p>
+            Olá, sou José, apaixonado por transformar ideias em realidade digital! Se você está buscando uma presença online impactante para o seu negócio, você veio ao lugar certo.
+            Do planejamento inicial à implementação final, estou comprometido em fornecer um serviço excepcional, garantindo que cada detalhe do seu site seja cuidadosamente desenvolvido para alcançar seus objetivos comerciais.
+          </p>
+          <a href="#">Leia Mais</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>
+            Desenvolvimento de aplicativos Android ou Ios
+          </h2>
+          <p>
+            Olá! Sou José e estou aqui para ajudar você a levar sua ideia para o mundo digital através de aplicativos móveis incríveis!
+            Com minha experiência sólida em Desenvolvimento de Aplicações para Android e iOS, estou comprometido em transformar suas necessidades em soluções práticas e inovadoras. Seja qual for o seu projeto - desde um aplicativsimples
+            até uma plataforma completa - estou aqui para tornar sua visão uma realidade.
+            Minha abordagem centrada no cliente significa que estou sempre ouvindo e entendendo suas necessidades específicas. Trabalho em estreita colaboração com você desde o conceito inicial até o lançamento final, garantindo que cada
+            etapa do processo reflita sua visão e atenda às expectativas mais elevadas.
+          </p>   
+          <a href="#">Leia Mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/source/js/tabContents.js"></script>
+</body>
+</html>
